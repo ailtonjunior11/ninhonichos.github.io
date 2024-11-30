@@ -1,0 +1,15 @@
+:root {
+  /* Cores */
+  --color-cinza-escuro: #343434;
+  --color-preto: #2a2a2a;
+  --color-branco: #ffffff;
+  --color-cinza-medio: #7f7f7f;
+  --color-button: #268ec5;
+  --color-text: #8ba3b3;
+  --color-title: #3daad5;
+  --color-cards: #043a58;
+  --color-cards-shadow: #5da7ceea;
+
+  /* Fonte */
+  --fonte-family: "Josefin Sans", sans-serif;
+}

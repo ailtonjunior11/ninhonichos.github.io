@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Bootstrapicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Slider swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/extences.css">
+  <!-- Titulo -->
+  <title>Nichos Planejados</title>
+</head>
+
+<body>
+  <header>
+    <!-- Logo -->
+    <div class="logo__menu">
+      <a href="#home">NINHO<span>NICHOS</span></a>
+    </div>
+
+    <!-- Sociais -->
+    <div class="sociais">
+      <a href="">
+        <i class='bx bxl-facebook'></i>
+      </a>
+      <a href="">
+        <i class='bx bxl-instagram'></i>
+      </a>
+      <a href="">
+        <i class='bx bxl-whatsapp'></i>
+      </a>
+    </div>
+
+    <!-- Menu desktop -->
+    <nav class="navbar">
+      <!-- Links menu -->
+      <ul class="nav__links" id="nav-links" role="menu">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">SOBRE</a></li>
+        <li><a href="#products">PRODUTOS</a></li>
+        <li><a href="#comments">DEPOIMENTOS</a></li>
+        <li><a href="#location">LOCALIZAÇÃO</a></li>
+        <li><a href="#contacts">CONTATOS</a></li>
+      </ul>
+    </nav>
+
+    <!-- Botão abrir menu -->
+    <div class="btn__abrir__menu" id="btn-menu">
+      <i class="bi bi-list"></i>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="menu__mobile" id="menu-mobile">
+      <div class="btn__fechar">
+        <i class="bi bi-x-lg"></i>
+      </div>
+
+      <nav>
+        <!-- Links menu -->
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">SOBRE</a></li>
+          <li><a href="#products">PRODUTOS</a></li>
+          <li><a href="#comments">DEPOIMENTOS</a></li>
+          <li><a href="#location">LOCALIZAÇÃO</a></li>
+          <li><a href="#contacts">CONTATOS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="overlay__menu" id="overlay-menu"></div>
+  </header>
+
+  <!-- Seções -->
+
+  <!-- Seção home -->
+  <section class="home" id="home">
+    <!-- Conteiner principal -->
+    <div class="home__container">
+      <!-- conteiner textos -->
+      <div class="home__txt">
+        <h2>"Transforme Seus Espaços com <span>Nichos Planejados Sob Medida!</span>"</h2>
+        <p>"Design personalizado, qualidade incomparável e soluções funcionais para qualquer ambiente. Deixe nossos
+          nichos planejados organizarem sua casa com estilo."</p>
+      </div>
+      <!-- conteiner link -->
+      <div class="home__link">
+        <a href="#products">Crie seu espaço ideal!</a>
+      </div>
+    </div>
+
+    <div class="home__logo">
+      <img src="img/logo.png" alt="imagem logo">
+    </div>
+  </section>
+
+  <!-- Seção sobre -->
+  <section class="about" id="about">
+    <strong><b>SOBRE</b> NÓS</strong>
+
+    <!-- Conteiner cards -->
+    <div class="abou__cards">
+      <!-- card 1 -->
+      <div class="card" id="card-left">
+        <div class="txt__card">
+          <h3>Conforto e Ergonomia!</h3>
+          <p>Especializada em móveis ergonômicos para escritórios e escolas, nossa loja oferece produtos que garantem
+            conforto e produtividade. As peças são modernas e duráveis, perfeitas para o dia a dia.</p>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card" id="card-right">
+        <div class="txt__card">
+          <h3>Funcionalidade com Estilo!</h3>
+          <p>Com mesas e cadeiras ajustáveis, nossos móveis são ideais para escritórios e salas de aula. Aliamos design
+            moderno e funcionalidade para criar ambientes confortáveis e produtivos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção produtos -->
+  <section class="products" id="products">
+    <strong><b>NOSSOS</b> PRODUTOS</strong>
+
+    <!-- Conteiner cards -->
+    <div class="card__container swiper products__cards">
+      <div class="card__content">
+        <div class="swiper-wrapper">
+
+          <!-- card 1 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 2 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho1.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 3 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho2.jpg" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 4 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho3.jpg" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 5 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho4.png" alt="ilustração cliente" ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 6 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho5.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 7 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho6.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 8 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho7.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 9 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho8.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 10 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho9.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+
+          <!-- card 11 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-produtos/nicho10.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Nicho Planejado</h3>
+              <p class="card__description">
+                Nichos planejados em geral.
+              </p>
+
+              <a href="">Comprar</a>
+            </div>
+
+          </article>
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-prev">
+        <i class='bx bxs-chevron-left'></i>
+      </div>
+
+      <div class="swiper-button-next">
+        <i class='bx bxs-chevron-right'></i>
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Seção depoimentos -->
+  <section class="comments" id="comments">
+    <strong><b>TODOS</b> FEEDBACKS</strong>
+
+    <!-- Conteiner cards -->
+    <div class="card__container swiper">
+      <div class="card__content">
+        <div class="swiper-wrapper">
+
+          <!-- card 1 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person1.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">João Paulo</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 2 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person2.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Antonella Silva</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 3 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person3.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Maria Luiza</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 4 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person4.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">João Guilherme</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 5 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person1.png" alt="ilustração cliente" ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Brian Okonew</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 6 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person2.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Sophia Becker</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 7 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person3.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">Maria Luiza</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+
+          <!-- card 8 -->
+          <article class="card__article swiper-slide">
+            <div class="card__image">
+              <img src="img/img-comments/person4.png" alt="ilustração cliente" class="card__img">
+              <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+              <h3 class="card__name">João Guilherme</h3>
+              <p class="card__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, esse.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-prev">
+        <i class='bx bxs-chevron-left'></i>
+      </div>
+
+      <div class="swiper-button-next">
+        <i class='bx bxs-chevron-right'></i>
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Seção localização -->
+  <section class="location" id="location">
+    <strong><b>NOSSA</b> LOCALIZAÇÃO</strong>
+
+    <div class="container__location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252836.6362285934!2d-35.09903357251427!3d-8.042938367442078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1730888079970!5m2!1spt-BR!2sbr"
+        width="650" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- Seção contatos -->
+  <section class="contacts" id="contacts">
+    <strong><b>ENTRE EM</b> CONTATO</strong>
+
+    <!-- Conteiner principal -->
+    <div class="contacts__container">
+      <!-- conteiner redes sociais -->
+      <div class="content__sociais">
+        NOSSAS REDES
+        <!-- Sociais -->
+        <div class="redes__sociais">
+          <a href="">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="">
+            <i class='bx bxl-instagram'></i>
+          </a>
+          <a href="">
+            <i class='bx bxl-whatsapp'></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- conteiner contatos -->
+      <div class="contatos">
+        NOSSO E-MAIL
+        <div class="contato">
+          📩 E-mail:
+          <p>xxxxxxxxx@xxxxx.xxx</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    &copy; 2024 / Todos os direitos reservados. Desenvolvido por Ailton Junior!
+  </footer>
+
+  <!-- Swiper js-->
+  <script src="scripts/swiper-bundle.min.js"></script>
+
+  <!-- Main js -->
+  <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10dvh;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: var(--color-preto);
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__links li {
+  padding-inline: 1rem;
+}
+
+.nav__links a {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-cinza-medio);
+  transition: all 0.3s;
+}
+
+.logo__menu a {
+  cursor: default;
+}
+
+.sociais {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.sociais i {
+  font-size: 1.3rem;
+  color: var(--color-cinza-medio);
+  transition: all 0.3s;
+}
+
+.sociais i:hover {
+  transform: scale(1.3);
+  color: var(--color-branco);
+}
+
+/* Menu mobile */
+.menu__mobile {
+  background: var(--color-preto);
+  height: 100vh;
+  width: 0%;
+  position: fixed;
+  padding: 1rem 0 0 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.menu__mobile.abrir-menu {
+  width: 70%;
+}
+
+.menu__mobile.abrir-menu ~ .overlay__menu {
+  display: block;
+}
+
+.menu__mobile nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 1rem 1rem 0 0;
+  text-align: right;
+}
+
+.menu__mobile nav ul li a {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem;
+  color: var(--color-branco);
+}
+
+.menu__mobile nav ul li a:active {
+  background-color: var(--color-dourado);
+}
+
+.menu__mobile .btn__fechar i {
+  font-size: 1.3rem;
+  margin: 1.2rem;
+  color: var(--color-branco);
+}
+
+.btn__abrir__menu i {
+  font-size: 1.4rem;
+  color: var(--color-branco);
+}
+
+/* Efeito overlay */
+.overlay__menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000a7;
+  z-index: 50;
+}
+
+/* Responsividade */
+
+/* Telas tablet */
+@media (max-width: 768px) {
+  .sociais {
+    display: none;
+  }
+}
+
+/* Telas maiores */
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .btn__abrir__menu {
+    display: none;
+  }
+
+  .menu__mobile {
+    display: none;
+  }
+
+  .overlay__menu {
+    display: none;
+  }
+
+  .nav__links .contatos a:hover {
+    box-shadow: 0 0 8px var(--color-dourado);
+  }
+
+  .nav__links a:hover {
+    color: var(--color-branco);
+  }
+}

@@ -1,0 +1,12 @@
+@import "./global.css";
+@import "./variables.css";
+
+@import "./components/header-menu.css";
+@import "./components/home.css";
+@import "./components/about.css";
+@import "./components/products.css";
+@import "./components/comments.css";
+@import "./components/location.css";
+@import "./components/models.css";
+@import "../css/components/contacts.css";
+@import "./swiper-bundle.min.css";

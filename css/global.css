@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--fonte-family);
+  font-size: 1rem;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100dvh;
+  background: var(--color-preto);
+}
+
+section {
+  height: 100vh;
+  padding: 5rem 2rem 2rem;
+}
+
+section strong {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-title);
+}
+
+section strong b {
+  font-size: 0.92rem;
+  color: var(--color-branco);
+}
+
+.logo__menu a,
+a span {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-branco);
+}
+
+.logo__menu a span {
+  font-weight: 900;
+  color: var(--color-title);
+}
+
+h2 {
+  font-size: 1.85rem;
+  color: var(--color-branco);
+  line-height: 2.1rem;
+}
+
+h2 span {
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: var(--color-title);
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--color-title);
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--color-title);
+}
+
+h5,
+h6 {
+  color: var(--color-title);
+}
+
+p {
+  line-height: 1.4rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+footer {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+  padding: 1rem;
+  background-color: var(--color-cinza-escuro);
+  color: var(--color-branco);
+}
+
+/* Responsividade */
+
+/* Telas maiores */
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    color: var(--color-branco);
+  }
+
+  h2 span {
+    font-size: 3.1rem;
+    font-weight: 600;
+    color: var(--color-title);
+  }
+
+  h3 {
+    font-size: 1.45rem;
+  }
+
+  p {
+    line-height: 1.2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  section {
+    padding: 5rem 4rem 2rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    color: var(--color-branco);
+  }
+
+  h2 span {
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: var(--color-title);
+  }
+
+  h3 {
+    font-size: 1.55rem;
+  }
+
+  p {
+    line-height: 20px;
+  }
+}
