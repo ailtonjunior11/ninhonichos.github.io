@@ -90,7 +90,7 @@ header {
 }
 
 .menu__mobile nav ul li a:active {
-  background-color: var(--color-dourado);
+  background-color: var(--color-button);
 }
 
 .menu__mobile .btn__fechar i {
