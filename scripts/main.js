@@ -83,19 +83,6 @@ sr.reveal("#card-right", {
   delay: 300,
 });
 
-sr.reveal(".products__cards", {
-  distance: "50px",
-  opacity: 0,
-  delay: 300,
-  duration: 1200,
-});
-
-sr.reveal(".swiper-wrapper", {
-  opacity: 0,
-  duration: 1200,
-  delay: 300,
-});
-
 sr.reveal(".contacts__container", {
   opacity: 0,
   origin: "top",
