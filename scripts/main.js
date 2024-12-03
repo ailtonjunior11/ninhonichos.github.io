@@ -66,27 +66,3 @@ sr.reveal(".home__logo", {
     z: 0,
   },
 });
-
-sr.reveal("#card-left", {
-  distance: "120px",
-  origin: "top",
-  opacity: 0,
-  duration: 1300,
-  delay: 300,
-});
-
-sr.reveal("#card-right", {
-  distance: "120px",
-  origin: "bottom",
-  opacity: 0,
-  duration: 1300,
-  delay: 300,
-});
-
-sr.reveal(".contacts__container", {
-  opacity: 0,
-  origin: "top",
-  distance: "50px",
-  delay: 300,
-  duration: 1200,
-});
