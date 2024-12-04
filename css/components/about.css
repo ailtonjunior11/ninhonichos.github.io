@@ -9,7 +9,7 @@
 .abou__cards {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.1rem;
 }
 
 .card {
@@ -19,7 +19,7 @@
   gap: 1rem;
   text-align: center;
   width: 100%;
-  padding: 2.1rem;
+  padding: 0.8rem;
   border-radius: 0.8rem;
   border: solid 0.01rem var(--color-cinza-medio);
   background-color: var(--color-cinza-escuro);

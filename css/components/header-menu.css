@@ -9,7 +9,7 @@ header {
   top: 0;
   left: 0;
   z-index: 10;
-  background-color: var(--color-preto);
+  background-color: var(--color-cinza-escuro);
 }
 
 .navbar {
@@ -41,14 +41,9 @@ header {
 }
 
 .sociais i {
-  font-size: 1.3rem;
-  color: var(--color-cinza-medio);
-  transition: all 0.3s;
-}
-
-.sociais i:hover {
-  transform: scale(1.3);
+  font-size: 1.2rem;
   color: var(--color-branco);
+  transition: all 0.3s;
 }
 
 /* Menu mobile */
@@ -118,13 +113,6 @@ header {
 
 /* Responsividade */
 
-/* Telas tablet */
-@media (max-width: 768px) {
-  .sociais {
-    display: none;
-  }
-}
-
 /* Telas maiores */
 @media (max-width: 1024px) {
   .nav__links {
@@ -150,6 +138,16 @@ header {
   }
 
   .nav__links a:hover {
+    color: var(--color-branco);
+  }
+
+  .sociais i {
+    font-size: 1.3rem;
+    color: var(--color-cinza-medio);
+  }
+
+  .sociais i:hover {
+    transform: scale(1.3);
     color: var(--color-branco);
   }
 }
