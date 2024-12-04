@@ -40,24 +40,17 @@
 }
 
 .products .card__img {
-  width: 180px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   position: relative;
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   z-index: 5;
 }
 
 .products .card__shadow {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 3.75rem;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  border-radius: 50%;
-  background-color: var(--color-title);
-  filter: blur(70px);
+  display: none;
 }
 
 .products .card__name {
@@ -65,7 +58,7 @@
 }
 
 .products .swiper {
-  width: 95%;
+  width: 100%;
   height: 100%;
 }
 
@@ -106,7 +99,7 @@
 .products .card__article .card__data a {
   padding: 0.3rem 0.5rem;
   border-radius: 0.3rem;
-  background-color: rgba(0, 170, 255, 0.171);
+  background-color: var(--color-button);
   color: var(--color-branco);
 }
 
