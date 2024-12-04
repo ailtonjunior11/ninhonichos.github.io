@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  position: relative;
 }
 
 .products .card__container {
@@ -66,13 +65,14 @@
 }
 
 .products .swiper {
-  width: 100%;
+  width: 95%;
   height: 100%;
 }
 
 .products .swiper-button-prev::after,
 .products .swiper-button-next::after {
   display: none;
+  position: relative;
 }
 
 .products .swiper-button-prev i,
@@ -81,7 +81,9 @@
   height: initial;
   font-size: 3rem;
   color: var(--color-button);
-  display: none;
+  display: block;
+  position: absolute;
+  bottom: 5rem;
 }
 
 .products .swiper-button-prev {
@@ -90,6 +92,14 @@
 
 .products .swiper-button-next {
   right: 0;
+}
+
+.products .bxs-chevron-left {
+  margin-right: 0.5rem;
+}
+
+.products .bxs-chevron-right {
+  margin-left: 0.5rem;
 }
 
 .products p {

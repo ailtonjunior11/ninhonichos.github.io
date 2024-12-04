@@ -64,13 +64,14 @@
 }
 
 .swiper {
-  width: 100%;
-  height: 75%;
+  width: 95%;
+  height: 100%;
 }
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
+  position: relative;
 }
 
 .swiper-button-prev i,
@@ -79,7 +80,9 @@
   height: initial;
   font-size: 3rem;
   color: var(--color-button);
-  display: none;
+  display: block;
+  position: absolute;
+  bottom: 8rem;
 }
 
 .swiper-button-prev {
@@ -88,6 +91,14 @@
 
 .swiper-button-next {
   right: 0;
+}
+
+.bxs-chevron-left {
+  margin-right: 2rem;
+}
+
+.bxs-chevron-right {
+  margin-left: 2rem;
 }
 
 /* Responsividade */
@@ -102,11 +113,6 @@
 @media (min-width: 768px) {
   .card__content {
     margin-inline: 3rem;
-  }
-
-  .swiper-button-next i,
-  .swiper-button-prev i {
-    display: block;
   }
 }
 
