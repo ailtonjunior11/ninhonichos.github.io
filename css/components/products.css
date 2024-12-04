@@ -40,7 +40,7 @@
 }
 
 .products .card__img {
-  width: 100%;
+  width: 200px;
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -50,7 +50,7 @@
 }
 
 .products .card__shadow {
-  display: none;
+  display: block;
 }
 
 .products .card__name {

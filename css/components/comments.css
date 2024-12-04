@@ -40,7 +40,7 @@
 }
 
 .card__img {
-  width: 100%;
+  width: 200px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
