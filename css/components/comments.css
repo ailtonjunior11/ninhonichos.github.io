@@ -71,7 +71,6 @@
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
-  position: relative;
 }
 
 .swiper-button-prev i,
@@ -81,8 +80,6 @@
   font-size: 3rem;
   color: var(--color-button);
   display: block;
-  position: absolute;
-  bottom: 8rem;
 }
 
 .swiper-button-prev {
